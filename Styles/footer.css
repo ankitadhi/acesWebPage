@@ -1,0 +1,30 @@
+.acesContact {
+    background: #6a7062;
+    text-align: center;
+}
+
+.acesContact > h3 {
+    color: #000;
+}
+.mineContent {
+    width: 100%;
+    background: rgb(114, 131, 215);
+    background: linear-gradient(
+        90deg,
+        rgba(114, 131, 215, 1) 0%,
+        rgba(13, 113, 198, 1) 48%,
+        rgba(125, 131, 236, 1) 100%
+    );
+    display: flex;
+    justify-content: center;
+}
+.mineContent p {
+    align-self: center;
+    color: #dcedb9;
+    padding: 1rem;
+    text-align: center;
+}
+span {
+    color: rgb(230, 162, 162);
+    font-weight: 500;
+}

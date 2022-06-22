@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    margin-top: 4rem;
+    margin-bottom: 0%;
+    /* background: url("/Images/background.jpg");
+    background-size: cover, no-repeat; */
+}
+
+.sectionTitle {
+    text-align: center;
+    font-family: "Homemade Apple", cursive;
+    color: rgba(39, 91, 14, 0.855);
+}
+
+h3 {
+    color: #0bc9cd;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.background {
+    background-color: #f4f2f3;
+}

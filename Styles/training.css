@@ -1,0 +1,73 @@
+.training {
+    margin-top: 2rem;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.card {
+    border: 2px solid #0bc9cd;
+    border-radius: 0.75rem;
+    margin-right: 2rem;
+}
+
+ul li {
+    display: block;
+    line-height: 2rem;
+    color: #41337a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+}
+
+.pahiloPaila {
+    margin-top: 2rem;
+}
+
+.pailaImage {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.pailaImage > img {
+    height: auto;
+    width: 100%;
+    border-radius: 15%;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #918868;
+}
+
+.mainEvent {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.mainEvent > h3 {
+    font-family: "Homemade Apple", cursive;
+    margin: 2rem 0;
+}
+
+.mainEvent > img {
+    height: auto;
+    width: 100%;
+    border-radius: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .infoContainer {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin-bottom: 2rem;
+    }
+}
